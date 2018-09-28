@@ -4,7 +4,7 @@
 	
 	<groupId>com.kavitha.sample</groupId>
 	<artifactId>sample4-war</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	
 	<packaging>war</packaging>
 	<name>${pkg.title}</name>
@@ -40,4 +40,16 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>Releases</id>
+			<name>Releases</name>
+			<url>http://localhost:8081/repository/Releases/ </url>
+	 	</repository>
+		<snapsshotRepository>
+			<id>snapshots</id>
+			<name>snapshots</name>
+			<url>http://localhost:8081/repository/Releases/ </url>
+	 	</snapshotrepository>
+	</distributionManagement>			
 </project>
