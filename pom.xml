@@ -50,6 +50,6 @@
 			<id>snapshots</id>
 			<name>snapshots</name>
 			<url>http://localhost:8081/repository/Releases/ </url>
-	 	</snapshotrepository>
+	 	</snapshotRepository>
 	</distributionManagement>			
 </project>
