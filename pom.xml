@@ -19,8 +19,8 @@
 	<properties>
 		<pkg.code>NEWPACKAGE</pkg.code>
 		<pkg.title>newpackage</pkg.title>
-		<pkg.version.string>0.0.1-SNAPSHOT</pkg.version.string>
-		<pkg.version>0.0.1-SNAPSHOT</pkg.version>
+		<pkg.version.string>1.0.1-SNAPSHOT</pkg.version.string>
+		<pkg.version>1.0.1-SNAPSHOT</pkg.version>
 		<pkg.description><!-- Give some description about this package --></pkg.description>
 
 		<!-- Dependency information -->
